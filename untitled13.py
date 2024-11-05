@@ -13,3 +13,10 @@ st.sidebar.write("Espero que te encuentres bien")
 
 
 st.sidebar.image()
+
+if st.sidebar.button("Haz click abajo)
+   st.sidebar.write("Haz hecho click en el boton")
+
+                     
+user_input= st.sidebar.text_input("Escribe tu usuario:")
+st.sidebar.write("Hola", user_input)
