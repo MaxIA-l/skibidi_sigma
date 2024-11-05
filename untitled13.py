@@ -24,3 +24,6 @@ if st.sidebar.button("Haz click abajo"):
                      
 user_input= st.sidebar.text_input("Escribe tu usuario:")
 st.sidebar.write("Hola", user_input)
+
+st.title("Mejora tu calidad de juego")
+
