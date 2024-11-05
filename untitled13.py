@@ -15,7 +15,7 @@ st.sidebar.title("Pagina del fornai og ")
 st.sidebar.header("Hola Gamer")
 st.sidebar.write("Espero que te encuentres bien")
 
-
+st.sidebar.image("OIP.jpg")
 
 
 if st.sidebar.button("Haz click abajo"):
