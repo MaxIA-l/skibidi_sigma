@@ -14,7 +14,7 @@ st.sidebar.write("Espero que te encuentres bien")
 
 st.sidebar.image()
 
-if st.sidebar.button("Haz click abajo")
+if st.sidebar.button("Haz click abajo"):
    st.sidebar.write("Haz hecho click en el boton")
 
                      
