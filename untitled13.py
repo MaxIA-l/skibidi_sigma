@@ -26,4 +26,5 @@ user_input= st.sidebar.text_input("Escribe tu usuario:")
 st.sidebar.write("Hola", user_input)
 
 st.title("Mejora tu calidad de juego")
-
+st.write("Primero para mejorar en este juego, necesitaremos una buena configuracion de construccion y edicion,
+         en el siguiente link te enviara a un video donde te ayudara en este ambito")
