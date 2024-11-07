@@ -24,7 +24,7 @@ if st.sidebar.button("Haz click abajo"):
 
 with st.sidebar:
     st.header('opciones de color')
-    color_grafico = st.color_picker('Selecciona un color para el grafico','#007bff'
+    color_grafico = st.color_picker('Selecciona un color para el grafico','#007bff')
 
                      
 user_input= st.sidebar.text_input("Escribe tu usuario:")
