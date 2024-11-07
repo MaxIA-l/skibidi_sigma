@@ -22,14 +22,6 @@ st.sidebar.image("OIP.jpg")
 if st.sidebar.button("Haz click abajo"):
    st.sidebar.write("Más abajo")
 
-with st.sidebar:
-    st.header('Opciones de color')
-    color_texto = st.color_picker('Selecciona un color para el texto', '#007bff')
-
-st.markdown(
-    f"<h1 style='color: {color_texto};'>Este es el texto con el color seleccionado</h1>",
-    unsafe_allow_html=True)
-
                      
 user_input= st.sidebar.text_input("Escribe tu usuario:")
 st.sidebar.write("Saludos usuario, en esta pagina te daremos una pequeña ayuda para mejorar en este Videojuego")
