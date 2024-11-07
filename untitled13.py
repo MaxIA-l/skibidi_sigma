@@ -11,6 +11,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
+
 st.sidebar.title("Pagina del apoyo para el juego Fortnite ")
 st.sidebar.header("Saludos Gamer")
 st.sidebar.write("Espero que te encuentres bien")
@@ -20,6 +21,10 @@ st.sidebar.image("OIP.jpg")
 
 if st.sidebar.button("Haz click abajo"):
    st.sidebar.write("Más abajo")
+
+with st.sidebar:
+    st.header('opciones de color')
+    color_grafico = st.color_picker('Selecciona un color para el grafico','#007bff'
 
                      
 user_input= st.sidebar.text_input("Escribe tu usuario:")
