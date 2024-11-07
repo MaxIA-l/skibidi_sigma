@@ -28,7 +28,7 @@ with st.sidebar:
 
 st.markdown(
     f"<h1 style='color: {color_texto};'>Este es el texto con el color seleccionado</h1>",
-    unsafe_allow_html=True
+    unsafe_allow_html=True)
 
                      
 user_input= st.sidebar.text_input("Escribe tu usuario:")
